@@ -5,7 +5,7 @@ def run_guessing_game
 # this phenomenon several times in these labs of things that by external
 # accounts should work but don't
 #  x = rand(1..6)
-x = rand
+x = rand(6)+1
   puts "Guess a number between 1-6:"
   input = gets.chomp
   if input == x.to_s
